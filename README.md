@@ -32,7 +32,7 @@ Add this to `mod_data/user.moonraker.conf`:
 ```ini
 [update_manager zmod_services]
 type: git_repo
-channel: dev
+channel: stable
 path: /root/printer_data/config/mod_data/plugins/zmod_services
 origin: https://github.com/DIEHARDave/zmod_services.git
 is_system_service: False
